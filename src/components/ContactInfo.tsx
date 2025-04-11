@@ -16,6 +16,7 @@ export const ContactInfo = () => {
 
   return (
     <Box
+      flex={1}
       sx={{
         display: "flex",
         alignItems: "center",

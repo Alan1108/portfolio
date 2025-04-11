@@ -1,0 +1,10 @@
+.keen-slider {
+  transition: transform 0.5s ease-in-out;
+}
+
+.keen-slider__slide {
+  transition: opacity 0.3s ease-in-out;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
