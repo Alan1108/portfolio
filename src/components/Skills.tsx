@@ -1,7 +1,8 @@
 import { LucideIcon } from './LucideIcon';
-import data from '../data/portfolioData.json';
+import { useTranslation } from '../context/LanguageContext';
 
 export function Skills() {
+  const data = useTranslation();
   return (
     <section id="skills" className="skills">
       <div className="section-header">

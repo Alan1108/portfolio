@@ -1,6 +1,7 @@
-import data from '../data/portfolioData.json';
+import { useTranslation } from '../context/LanguageContext';
 
 export function About() {
+  const data = useTranslation();
   return (
     <section id="about" className="about">
       <div className="section-header">

@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Mail } from 'lucide-react';
-import data from '../data/portfolioData.json';
+import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
+import { useTranslation } from '../context/LanguageContext';
 
 export function Hero() {
+  const data = useTranslation();
   return (
     <section className="hero">
       <div className="hero-content">
@@ -37,6 +38,14 @@ export function Hero() {
             className="social-icon"
           >
             <Linkedin size={24} />
+          </a>
+          <a
+            href={data.socialLinks.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
+            <Instagram size={24} />
           </a>
           <a href={data.socialLinks.email} className="social-icon">
             <Mail size={24} />

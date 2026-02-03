@@ -1,7 +1,8 @@
 import { ExternalLink, Github } from 'lucide-react';
-import data from '../data/portfolioData.json';
+import { useTranslation } from '../context/LanguageContext';
 
 export function Projects() {
+  const data = useTranslation();
   return (
     <section id="projects" className="projects">
       <div className="projects-header">
@@ -32,7 +33,7 @@ export function Projects() {
                   className="project-link project-link--live"
                 >
                   <ExternalLink size={18} />
-                  View Live
+                  {data.ui.projects.viewLive}
                 </a>
                 <a
                   href={project.codeUrl}
@@ -41,7 +42,7 @@ export function Projects() {
                   className="project-link project-link--code"
                 >
                   <Github size={18} />
-                  View Code
+                  {data.ui.projects.viewCode}
                 </a>
               </div>
             </div>

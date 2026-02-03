@@ -44,6 +44,13 @@ body.nav-open {
   overflow: hidden;
 }
 
+body.nav-open .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -371,9 +378,8 @@ input, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 44px;
+  height: 40px;
   padding: 0 20px;
-  margin-top: 16px;
   width: 100%;
   background: var(--purple-accent);
   color: var(--text-on-primary);
@@ -381,10 +387,66 @@ input, textarea {
   font-size: 14px;
   font-weight: 500;
   transition: opacity 0.2s;
+  white-space: nowrap;
 }
 
 .nav-cta:hover {
   opacity: 0.85;
+}
+
+.nav-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background: var(--green-primary);
+  color: var(--bg-page);
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  padding: 0 20px;
+}
+
+.nav-cv:hover {
+  opacity: 0.85;
+}
+
+/* Nav actions wrapper (lang toggle + hamburger) */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Language toggle */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--gray-500);
+  border: 1px solid var(--border);
+  background: none;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.lang-toggle:hover {
+  border-color: var(--gray-500);
+}
+
+.lang-toggle-separator {
+  color: var(--border);
+}
+
+.lang-toggle-active {
+  color: var(--green-primary);
+  font-weight: 700;
 }
 
 @media (min-width: 640px) {
@@ -402,6 +464,11 @@ input, textarea {
 @media (min-width: 1024px) {
   .nav {
     height: 80px;
+  }
+
+  .nav-actions {
+    order: 1;
+    gap: 16px;
   }
 
   .nav-toggle {
@@ -439,7 +506,7 @@ input, textarea {
   }
 
   .nav-cta {
-    width: auto;
+    width: fit-content;
     margin-top: 0;
     height: 40px;
     font-size: 12px;
@@ -1094,6 +1161,7 @@ input, textarea {
 
 .edu-icon--green { background: var(--green-primary); }
 .edu-icon--teal { background: var(--teal-accent); }
+.edu-icon--purple { background: var(--purple-accent); }
 
 .edu-content {
   display: flex;
@@ -1117,6 +1185,7 @@ input, textarea {
 
 .edu-school--green { color: var(--green-primary); }
 .edu-school--teal { color: var(--teal-accent); }
+.edu-school--purple { color: var(--purple-accent); }
 
 .edu-year {
   font-family: var(--font-body);

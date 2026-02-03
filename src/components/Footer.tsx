@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Mail } from 'lucide-react';
-import data from '../data/portfolioData.json';
+import { useTranslation } from '../context/LanguageContext';
 
 export function Footer() {
+  const data = useTranslation();
   return (
     <footer className="footer">
       <div className="footer-top">
@@ -12,7 +13,7 @@ export function Footer() {
         </div>
         <div className="footer-links">
           <div className="footer-column">
-            <span className="footer-column-title">Quick Links</span>
+            <span className="footer-column-title">{data.ui.footer.quickLinksTitle}</span>
             {data.footer.quickLinks.map((link) => (
               <Link key={link.href} to={link.href} className="footer-link">
                 {link.label}
@@ -20,7 +21,7 @@ export function Footer() {
             ))}
           </div>
           <div className="footer-column">
-            <span className="footer-column-title">Connect</span>
+            <span className="footer-column-title">{data.ui.footer.connectTitle}</span>
             {data.footer.connectLinks.map((link) => (
               <a
                 key={link.href}

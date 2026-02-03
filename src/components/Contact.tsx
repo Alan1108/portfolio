@@ -1,13 +1,15 @@
 import { useState } from 'react';
-import data from '../data/portfolioData.json';
+import { useTranslation } from '../context/LanguageContext';
 
 export function Contact() {
+  const data = useTranslation();
   const [form, setForm] = useState({ name: '', email: '', message: '' });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:${data.personal.email}?subject=Portfolio Contact from ${form.name}&body=${encodeURIComponent(form.message)}%0A%0AFrom: ${form.name} (${form.email})`;
-    window.location.href = mailtoLink;
+    const subject = encodeURIComponent(`${data.ui.contact.mailtoSubject} ${form.name}`);
+    const body = encodeURIComponent(`${form.message}\n\nFrom: ${form.name} (${form.email})`);
+    window.location.href = `mailto:${data.personal.email}?subject=${subject}&body=${body}`;
   };
 
   const handleReset = () => {
@@ -27,7 +29,7 @@ export function Contact() {
             <input
               className="form-input"
               type="text"
-              placeholder="your_name"
+              placeholder={data.ui.contact.namePlaceholder}
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
               required
@@ -38,7 +40,7 @@ export function Contact() {
             <input
               className="form-input"
               type="email"
-              placeholder="email@example.com"
+              placeholder={data.ui.contact.emailPlaceholder}
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
               required
@@ -48,7 +50,7 @@ export function Contact() {
             <label className="form-label">// message</label>
             <textarea
               className="form-textarea"
-              placeholder="your message here..."
+              placeholder={data.ui.contact.messagePlaceholder}
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
               required

@@ -1,0 +1,269 @@
+{
+  "personal": {
+    "logo": "> portfolio_",
+    "name": "> alan_bermudez",
+    "displayName": "Alan Bermudez",
+    "greeting": "// Hello There!",
+    "titlePrefix": "$ whoami",
+    "description": "Desarrollador Fullstack | Construyendo aplicaciones web modernas con React, TypeScript y tecnologia de vanguardia.",
+    "photo": "/profile.jpg",
+    "email": "alan.ibm1108@gmail.com",
+    "footerTagline": "Desarrollador Fullstack Senior creando experiencias digitales excepcionales con tecnologias modernas.",
+    "copyright": "\u00a9 2024 alan_bermudez | all_rights_reserved"
+  },
+
+  "navigation": {
+    "links": [
+      { "label": "Sobre mi/", "href": "/about" },
+      { "label": "Habilidades/", "href": "/skills" },
+      { "label": "Experiencia/", "href": "/experience" },
+      { "label": "Educación/", "href": "/education" },
+      { "label": "Proyectos/", "href": "/projects" },
+      { "label": "Contacto/", "href": "/contact" }
+    ],
+    "ctaButton": { "text": "$ hire", "href": "/contact" },
+    "cvButton": {
+      "text": "$ descargar CV",
+      "href": "https://drive.google.com/file/d/1UQWdIhz740rTx25aFVXYDitLR48OeV3t/view?usp=sharing"
+    }
+  },
+
+  "hero": {
+    "buttons": [
+      { "text": "$ ver proyectos", "href": "/projects", "variant": "primary" },
+      {
+        "text": "$ contactar",
+        "href": "/contact",
+        "variant": "secondary"
+      }
+    ]
+  },
+
+  "socialLinks": {
+    "github": "https://github.com/Alan1108",
+    "linkedin": "https://linkedin.com/in/alanibm",
+    "email": "mailto:alan.ibm1108@gmail.com"
+  },
+
+  "about": {
+    "title": "// sobre_mi",
+    "paragraphs": [
+      "Soy un desarrollador fullstack apasionado con mas de 5 anos de experiencia construyendo aplicaciones web modernas y escalables. Me especializo en React, TypeScript y frameworks modernos de JavaScript. Ademas de esto, tengo experiencia en el desarrollo de aplicaciones moviles con React Native y tambien en desarrollo backend.",
+      "Mi enfoque combina experiencia tecnica con un ojo agudo para el diseno, asegurando que cada proyecto en el que trabajo sea funcional y atractivo. Estoy comprometido con escribir codigo limpio y mantenible, manteniendome al dia con las ultimas tecnologias web."
+    ],
+    "stats": [
+      { "number": "5", "label": "++ años", "color": "green" },
+      { "number": "10", "label": "++ proyectos", "color": "teal" },
+      { "number": "5", "label": "++ clientes", "color": "purple" }
+    ]
+  },
+
+  "experience": {
+    "title": "// experiencia",
+    "items": [
+      {
+        "role": "$ desarrollador_mobile_fullstack",
+        "company": "@ Bolt Group",
+        "date": "[2025-presente]",
+        "description": "Diseño y mejora de la API y la aplicación móvil enfocada en educación financiera y acceso a crédito[cite: 14]. Utilizo React Native, Expo y Nest.js para desarrollar funcionalidades que ayudan a los usuarios a aprender sobre finanzas y ofrecen tarjetas de crédito basadas en sus hábitos[cite: 15]. Mis responsabilidades incluyen la implementación de nuevas funciones, resolución de cuellos de botella de rendimiento y asegurar una UI/UX fluida[cite: 16]."
+      },
+      {
+        "role": "$ ingeniero_de_software_semi-senior",
+        "company": "@ ioet",
+        "date": "[2022-2025]",
+        "description": "Desarrollador Fullstack en múltiples proyectos, incluyendo una aplicación de contabilidad para EE.UU. que utiliza IA para la clasificación de documentos y sistemas internos de nómina[cite: 25, 26, 37]. Actué como Auditor de Código para Warby Parker verificando protocolos de seguridad y como Trainee de Ingeniero DevOps gestionando infraestructura en la nube de AWS con Terraform y Ansible[cite: 21, 35]."
+      },
+      {
+        "role": "$ desarrollador_móvil",
+        "company": "@ Prowess EC",
+        "date": "[2021-2022]",
+        "description": "Diseño e implementación de interfaces de usuario para una aplicación de entregas dirigida a inmigrantes y refugiados venezolanos[cite: 48]. Utilicé Flutter y Dart para crear una experiencia de usuario sin fricciones e integré Firebase para la autenticación y gestión de bases de datos[cite: 49]."
+      },
+      {
+        "role": "$ desarrollador_.NET",
+        "company": "@ Microsoft Community",
+        "date": "[2020]",
+        "description": "Desarrollo de un Sistema de Gestión Hospitalaria durante la pandemia de COVID-19[cite: 54]. Responsable del diseño del registro de pacientes y asignación de citas utilizando .NET y C#[cite: 55]. Desarrollé interfaces de usuario para el portal del paciente utilizando Blazor Pages para mejorar la usabilidad del sistema[cite: 56]."
+      }
+    ]
+  },
+
+  "skills": {
+    "title": "// habilidades_técnicas",
+    "categories": [
+      {
+        "title": "const lenguajes =",
+        "color": "green",
+        "items": [
+          { "name": "JavaScript", "icon": "Code" },
+          { "name": "TypeScript", "icon": "FileCode" },
+          { "name": "Python", "icon": "Braces" },
+          { "name": "Go", "icon": "Code" },
+          { "name": "C#", "icon": "Code" },
+          { "name": "Dart", "icon": "Code" },
+          { "name": "HTML/CSS", "icon": "CodeXml" }
+        ]
+      },
+      {
+        "title": "const frameworks =",
+        "color": "teal",
+        "items": [
+          { "name": "React.js", "icon": "Atom" },
+          { "name": "NestJS", "icon": "Hexagon" },
+          { "name": "React Native", "icon": "Smartphone" },
+          { "name": "Expo", "icon": "Zap" },
+          { "name": "FastAPI", "icon": "Zap" },
+          { "name": "Flask", "icon": "Zap" },
+          { "name": "Django", "icon": "Zap" },
+          { "name": "Flutter", "icon": "Smartphone" },
+          { "name": "Blazor", "icon": "Triangle" }
+        ]
+      },
+      {
+        "title": "const herramientas =",
+        "color": "purple",
+        "items": [
+          { "name": "AWS", "icon": "Cloud" },
+          { "name": "GCP", "icon": "Cloud" },
+          { "name": "Terraform", "icon": "Box" },
+          { "name": "Ansible", "icon": "Box" },
+          { "name": "Git/GitHub", "icon": "GitBranch" },
+          { "name": "Jenkins", "icon": "Zap" },
+          { "name": "PostgreSQL", "icon": "Server" },
+          { "name": "DynamoDB", "icon": "Database" },
+          { "name": "Firebase", "icon": "Leaf" },
+          { "name": "CI/CD", "icon": "Network" }
+        ]
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "// proyectos",
+    "subtitle": "$ ls -la proyectos/",
+    "items": [
+      {
+        "title": "> Stock_App/",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tech": ["React"],
+        "liveUrl": "#",
+        "codeUrl": "https://github.com/Alan1108/finnhub-api-demo"
+      }
+    ]
+  },
+
+  "education": {
+    "title": "// educaciòn",
+    "items": [
+      {
+        "degree": "> ingenieria_en_software/",
+        "school": "@ Universidad de las Fuerzas Armadas ESPE",
+        "year": "[2019-2024]",
+        "icon": "GraduationCap",
+        "color": "green"
+      },
+      {
+        "degree": "> gcp_cloud_fundamentals/",
+        "school": "@ Google",
+        "year": "",
+        "icon": "Cloud",
+        "color": "teal"
+      },
+      {
+        "degree": "> gcp_networking_security/",
+        "school": "@ Google",
+        "year": "",
+        "icon": "Shield",
+        "color": "teal"
+      },
+      {
+        "degree": "> gcp_data_ml_ai/",
+        "school": "@ Google",
+        "year": "",
+        "icon": "Database",
+        "color": "teal"
+      },
+      {
+        "degree": "> gcp_infrastructure/",
+        "school": "@ Google",
+        "year": "",
+        "icon": "Server",
+        "color": "teal"
+      },
+      {
+        "degree": "> the_nodejs_bible/",
+        "school": "@ Udemy",
+        "year": "",
+        "icon": "Code",
+        "color": "purple"
+      },
+      {
+        "degree": "> git_github_crash_course/",
+        "school": "@ Udemy",
+        "year": "",
+        "icon": "GitBranch",
+        "color": "purple"
+      },
+      {
+        "degree": "> java_foundation/",
+        "school": "@ Oracle Academy",
+        "year": "",
+        "icon": "Coffee",
+        "color": "green"
+      },
+      {
+        "degree": "> ef_set_english_c1/",
+        "school": "@ EF",
+        "year": "",
+        "icon": "Languages",
+        "color": "teal"
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "// contáctame",
+    "subtitle": "$ email --enviar",
+    "submitButton": "$ enviar --formulario",
+    "resetButton": "$ reset --todo"
+  },
+
+  "footer": {
+    "quickLinks": [
+      { "label": "> Sobre mí", "href": "/about" },
+      { "label": "> Habilidades", "href": "/skills" },
+      { "label": "> Experiencia", "href": "/experience" },
+      { "label": "> Proyectos", "href": "/projects" },
+      { "label": "> Educación", "href": "/education" },
+      { "label": "> Contacto", "href": "/contact" }
+    ],
+    "connectLinks": [
+      { "label": "> GitHub", "href": "https://github.com/Alan1108" },
+      { "label": "> LinkedIn", "href": "https://linkedin.com/in/alanibm" },
+      { "label": "> Email", "href": "mailto:alan.ibm1108@gmail.com" },
+      { "label": "> Instagram", "href": "https://instagram.com/alanibm" }
+    ]
+  },
+
+  "ui": {
+    "nav": {
+      "openMenu": "Abrir menu",
+      "closeMenu": "Cerrar menu"
+    },
+    "projects": {
+      "viewLive": "Ver Demo",
+      "viewCode": "Ver Codigo"
+    },
+    "footer": {
+      "quickLinksTitle": "Enlaces Rápidos",
+      "connectTitle": "Conectar"
+    },
+    "contact": {
+      "namePlaceholder": "tu_nombre",
+      "emailPlaceholder": "email@ejemplo.com",
+      "messagePlaceholder": "tu mensaje aqui...",
+      "mailtoSubject": "Contacto de Portafolio de"
+    }
+  }
+}
