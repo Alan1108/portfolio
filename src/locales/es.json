@@ -263,7 +263,10 @@
       "namePlaceholder": "tu_nombre",
       "emailPlaceholder": "email@ejemplo.com",
       "messagePlaceholder": "tu mensaje aqui...",
-      "mailtoSubject": "Contacto de Portafolio de"
+      "mailtoSubject": "Contacto de Portafolio de",
+      "sending": "Enviando...",
+      "successMessage": "¡Mensaje enviado exitosamente! Te responderé pronto.",
+      "errorMessage": "Error al enviar el mensaje. Por favor intenta de nuevo o escríbeme directamente."
     }
   }
 }

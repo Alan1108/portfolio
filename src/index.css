@@ -1243,6 +1243,38 @@ input, textarea {
   width: 100%;
 }
 
+.form-message {
+  padding: 16px;
+  border-radius: 4px;
+  font-family: var(--font-heading);
+  font-size: 14px;
+  text-align: center;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-message--success {
+  background: rgba(0, 255, 136, 0.1);
+  border: 1px solid var(--green-primary);
+  color: var(--green-primary);
+}
+
+.form-message--error {
+  background: rgba(255, 82, 82, 0.1);
+  border: 1px solid #ff5252;
+  color: #ff5252;
+}
+
 .form-container {
   display: flex;
   flex-direction: column;

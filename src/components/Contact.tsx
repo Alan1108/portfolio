@@ -1,19 +1,49 @@
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { useTranslation } from '../context/LanguageContext';
+import { config } from '../services/config';
 
 export function Contact() {
   const data = useTranslation();
   const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`${data.ui.contact.mailtoSubject} ${form.name}`);
-    const body = encodeURIComponent(`${form.message}\n\nFrom: ${form.name} (${form.email})`);
-    window.location.href = `mailto:${data.personal.email}?subject=${subject}&body=${body}`;
+    setStatus('sending');
+
+    try {
+      const { serviceId, templateId, publicKey } = config.emailJs;
+
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+          to_name: data.personal.name,
+        },
+        publicKey
+      );
+
+      setStatus('success');
+      setForm({ name: '', email: '', message: '' });
+      
+      // Reset success message after 5 seconds
+      setTimeout(() => setStatus('idle'), 5000);
+    } catch (error) {
+      console.error('EmailJS Error:', error);
+      setStatus('error');
+      
+      // Reset error message after 5 seconds
+      setTimeout(() => setStatus('idle'), 5000);
+    }
   };
 
   const handleReset = () => {
     setForm({ name: '', email: '', message: '' });
+    setStatus('idle');
   };
 
   return (
@@ -33,6 +63,7 @@ export function Contact() {
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
               required
+              disabled={status === 'sending'}
             />
           </div>
           <div className="form-field">
@@ -44,6 +75,7 @@ export function Contact() {
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
               required
+              disabled={status === 'sending'}
             />
           </div>
           <div className="form-field">
@@ -54,14 +86,37 @@ export function Contact() {
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
               required
+              disabled={status === 'sending'}
             />
           </div>
         </div>
+        
+        {/* Status Messages */}
+        {status === 'success' && (
+          <div className="form-message form-message--success">
+            ✓ {data.ui.contact.successMessage}
+          </div>
+        )}
+        {status === 'error' && (
+          <div className="form-message form-message--error">
+            ✗ {data.ui.contact.errorMessage}
+          </div>
+        )}
+
         <div className="contact-buttons">
-          <button type="submit" className="btn btn--green">
-            {data.contact.submitButton}
+          <button 
+            type="submit" 
+            className="btn btn--green"
+            disabled={status === 'sending'}
+          >
+            {status === 'sending' ? data.ui.contact.sending : data.contact.submitButton}
           </button>
-          <button type="button" className="btn btn--outline" onClick={handleReset}>
+          <button 
+            type="button" 
+            className="btn btn--outline" 
+            onClick={handleReset}
+            disabled={status === 'sending'}
+          >
             {data.contact.resetButton}
           </button>
         </div>
