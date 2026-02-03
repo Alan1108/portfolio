@@ -1,23 +1,24 @@
 {
   "personal": {
     "logo": "> portfolio_",
-    "name": "> alex_rodriguez",
-    "displayName": "Alex Rodriguez",
+    "name": "> alan_bermudez",
+    "displayName": "Alan Bermudez",
     "greeting": "// Hello There!",
     "titlePrefix": "$ whoami",
     "description": "Senior Frontend Developer | Building modern web applications with React, TypeScript, and cutting-edge tech. Focused on exceptional UX.",
     "photo": "/profile.jpg",
-    "email": "alex@example.com",
+    "email": "alan.ibm1108@gmail.com",
     "footerTagline": "Senior Frontend Developer crafting exceptional digital experiences with modern technologies.",
-    "copyright": "\u00a9 2024 alex_rodriguez | all_rights_reserved"
+    "copyright": "\u00a9 2024 alan_bermudez | all_rights_reserved"
   },
 
   "navigation": {
     "links": [
       { "label": "about/", "href": "/about" },
       { "label": "skills/", "href": "/skills" },
-      { "label": "projects/", "href": "/projects" },
       { "label": "experience/", "href": "/experience" },
+      { "label": "education/", "href": "/education" },
+      { "label": "projects/", "href": "/projects" },
       { "label": "contact/", "href": "/contact" }
     ],
     "ctaButton": { "text": "$ hire", "href": "/contact" }
@@ -26,14 +27,18 @@
   "hero": {
     "buttons": [
       { "text": "$ ls projects/", "href": "/projects", "variant": "primary" },
-      { "text": "$ contact --email", "href": "/contact", "variant": "secondary" }
+      {
+        "text": "$ contact --email",
+        "href": "/contact",
+        "variant": "secondary"
+      }
     ]
   },
 
   "socialLinks": {
-    "github": "https://github.com/",
-    "linkedin": "https://linkedin.com/in/",
-    "email": "mailto:alex@example.com"
+    "github": "https://github.com/Alan1108",
+    "linkedin": "https://linkedin.com/in/alanibm",
+    "email": "mailto:alan.ibm1108@gmail.com"
   },
 
   "about": {
@@ -44,8 +49,8 @@
     ],
     "stats": [
       { "number": "5", "label": "++ years", "color": "green" },
-      { "number": "50", "label": "++ projects", "color": "teal" },
-      { "number": "20", "label": "++ clients", "color": "purple" }
+      { "number": "10", "label": "++ projects", "color": "teal" },
+      { "number": "5", "label": "++ clients", "color": "purple" }
     ]
   },
 
@@ -134,18 +139,11 @@
     "title": "// education",
     "items": [
       {
-        "degree": "> bachelor_cs/",
-        "school": "@ University of Technology",
-        "year": "[2015-2019]",
+        "degree": "> bachelor_software_engineering/",
+        "school": "@ Universidad de las Fuerzas Armadas ESPE",
+        "year": "[2019-2024]",
         "icon": "GraduationCap",
         "color": "green"
-      },
-      {
-        "degree": "> fullstack_bootcamp/",
-        "school": "@ Tech Academy",
-        "year": "[2019]",
-        "icon": "Award",
-        "color": "teal"
       }
     ]
   },
@@ -165,9 +163,9 @@
       { "label": "> Contact", "href": "/contact" }
     ],
     "connectLinks": [
-      { "label": "> GitHub", "href": "https://github.com/" },
-      { "label": "> LinkedIn", "href": "https://linkedin.com/in/" },
-      { "label": "> Email", "href": "mailto:alex@example.com" }
+      { "label": "> GitHub", "href": "https://github.com/Alan1108" },
+      { "label": "> LinkedIn", "href": "https://linkedin.com/in/alanibm" },
+      { "label": "> Email", "href": "mailto:alan.ibm1108@gmail.com" }
     ]
   }
 }
