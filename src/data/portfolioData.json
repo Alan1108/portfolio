@@ -1,0 +1,173 @@
+{
+  "personal": {
+    "logo": "> portfolio_",
+    "name": "> alex_rodriguez",
+    "displayName": "Alex Rodriguez",
+    "greeting": "// Hello There!",
+    "titlePrefix": "$ whoami",
+    "description": "Senior Frontend Developer | Building modern web applications with React, TypeScript, and cutting-edge tech. Focused on exceptional UX.",
+    "photo": "/profile.jpg",
+    "email": "alex@example.com",
+    "footerTagline": "Senior Frontend Developer crafting exceptional digital experiences with modern technologies.",
+    "copyright": "\u00a9 2024 alex_rodriguez | all_rights_reserved"
+  },
+
+  "navigation": {
+    "links": [
+      { "label": "about/", "href": "/about" },
+      { "label": "skills/", "href": "/skills" },
+      { "label": "projects/", "href": "/projects" },
+      { "label": "experience/", "href": "/experience" },
+      { "label": "contact/", "href": "/contact" }
+    ],
+    "ctaButton": { "text": "$ hire", "href": "/contact" }
+  },
+
+  "hero": {
+    "buttons": [
+      { "text": "$ ls projects/", "href": "/projects", "variant": "primary" },
+      { "text": "$ contact --email", "href": "/contact", "variant": "secondary" }
+    ]
+  },
+
+  "socialLinks": {
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/in/",
+    "email": "mailto:alex@example.com"
+  },
+
+  "about": {
+    "title": "// about_me",
+    "paragraphs": [
+      "I'm a passionate frontend developer with over 5 years of experience building modern, scalable web applications. I specialize in React, TypeScript, and modern JavaScript frameworks.",
+      "My approach combines technical expertise with a keen eye for design, ensuring that every project I work on is both functional and beautiful. I'm committed to writing clean, maintainable code and staying current with the latest web technologies."
+    ],
+    "stats": [
+      { "number": "5", "label": "++ years", "color": "green" },
+      { "number": "50", "label": "++ projects", "color": "teal" },
+      { "number": "20", "label": "++ clients", "color": "purple" }
+    ]
+  },
+
+  "experience": {
+    "title": "// experience",
+    "items": [
+      {
+        "role": "$ senior_frontend_dev",
+        "company": "@ TechCorp Solutions",
+        "date": "[2021-present]",
+        "description": "Leading frontend development for enterprise SaaS applications. Architected and implemented reusable component libraries, improved performance by 40%, and mentored junior developers."
+      },
+      {
+        "role": "$ frontend_dev",
+        "company": "@ Digital Innovations",
+        "date": "[2019-2021]",
+        "description": "Developed responsive web applications using React and modern JavaScript. Collaborated with UX designers to implement pixel-perfect designs and improve user engagement by 30%."
+      }
+    ]
+  },
+
+  "skills": {
+    "title": "// technical_skills",
+    "categories": [
+      {
+        "title": "const languages =",
+        "color": "green",
+        "items": [
+          { "name": "JavaScript", "icon": "Code" },
+          { "name": "TypeScript", "icon": "FileCode" },
+          { "name": "Python", "icon": "Braces" },
+          { "name": "HTML/CSS", "icon": "CodeXml" },
+          { "name": "SQL", "icon": "Database" }
+        ]
+      },
+      {
+        "title": "const frameworks =",
+        "color": "teal",
+        "items": [
+          { "name": "React", "icon": "Atom" },
+          { "name": "Next.js", "icon": "Triangle" },
+          { "name": "Node.js", "icon": "Hexagon" },
+          { "name": "Express", "icon": "Zap" },
+          { "name": "Tailwind", "icon": "Wind" }
+        ]
+      },
+      {
+        "title": "const tools =",
+        "color": "purple",
+        "items": [
+          { "name": "Git", "icon": "GitBranch" },
+          { "name": "Docker", "icon": "Box" },
+          { "name": "AWS", "icon": "Cloud" },
+          { "name": "MongoDB", "icon": "Leaf" },
+          { "name": "PostgreSQL", "icon": "Server" },
+          { "name": "REST APIs", "icon": "Network" }
+        ]
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "// featured_projects",
+    "subtitle": "$ ls -la projects/",
+    "items": [
+      {
+        "title": "> ecommerce_platform/",
+        "description": "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard. Built with modern technologies for optimal performance and scalability.",
+        "image": "https://images.unsplash.com/photo-1642240251149-bcccea43798d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "tech": ["React", "Node.js", "MongoDB", "Stripe"],
+        "liveUrl": "#",
+        "codeUrl": "#"
+      },
+      {
+        "title": "> task_manager/",
+        "description": "A collaborative task management application with real-time updates, team workspaces, and advanced filtering. Features drag-and-drop functionality and integrations with popular tools.",
+        "image": "https://images.unsplash.com/photo-1738618139780-dc7478cf72f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "tech": ["Next.js", "TypeScript", "PostgreSQL", "Socket.io"],
+        "liveUrl": "#",
+        "codeUrl": "#"
+      }
+    ]
+  },
+
+  "education": {
+    "title": "// education",
+    "items": [
+      {
+        "degree": "> bachelor_cs/",
+        "school": "@ University of Technology",
+        "year": "[2015-2019]",
+        "icon": "GraduationCap",
+        "color": "green"
+      },
+      {
+        "degree": "> fullstack_bootcamp/",
+        "school": "@ Tech Academy",
+        "year": "[2019]",
+        "icon": "Award",
+        "color": "teal"
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "// contact_me",
+    "subtitle": "$ email --send",
+    "submitButton": "$ submit --form",
+    "resetButton": "$ reset --all"
+  },
+
+  "footer": {
+    "quickLinks": [
+      { "label": "> About", "href": "/about" },
+      { "label": "> Projects", "href": "/projects" },
+      { "label": "> Experience", "href": "/experience" },
+      { "label": "> Contact", "href": "/contact" }
+    ],
+    "connectLinks": [
+      { "label": "> GitHub", "href": "https://github.com/" },
+      { "label": "> LinkedIn", "href": "https://linkedin.com/in/" },
+      { "label": "> Email", "href": "mailto:alex@example.com" }
+    ]
+  }
+}

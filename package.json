@@ -10,17 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^6.4.8",
-    "@mui/lab": "7.0.0-beta.10",
-    "@mui/material": "^6.4.8",
-    "@mui/styled-engine-sc": "^6.4.6",
-    "keen-slider": "^6.8.6",
+    "framer-motion": "^12.30.0",
+    "lucide-react": "^0.460.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-toastify": "^11.0.5",
-    "styled-components": "^6.1.16"
+    "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -34,10 +28,5 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "standard"
-    ]
   }
 }

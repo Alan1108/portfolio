@@ -1,73 +1,36 @@
-import { Box, Typography } from "@mui/material";
-
-import "./App.css";
-import { ContactInfo } from "./components/ContactInfo";
-import { ToastContainer } from "react-toastify";
-import { ABOUT_ME, experience } from "./utils/constants";
-import { TechCarousel } from "./components/TechCarousel";
-import { ExperienceCard } from "./components/ExperienceCard";
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { Nav } from './components/Nav';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Experience } from './components/Experience';
+import { Skills } from './components/Skills';
+import { Projects } from './components/Projects';
+import { Education } from './components/Education';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
+import { PageTransition } from './components/PageTransition';
 
 function App() {
+  const location = useLocation();
+
   return (
-    <Box
-      sx={{
-        display: "flex",
-        alignItems: "center",
-        flexDirection: "column",
-        gap: 5,
-      }}
-    >
-      <ContactInfo />
-      <Box
-        flex={1}
-        sx={{ alignSelf: "start", textAlign: "justify", maxWidth: "50rem" }}
-      >
-        <Typography sx={{ fontSize: 24, fontWeight: "bold" }}>
-          {"About me"}
-        </Typography>
-        <Typography sx={{ textAlign: "justify" }}>{ABOUT_ME}</Typography>
-      </Box>
-      <Box flex={1} sx={{ alignSelf: "start" }}>
-        <Typography
-          sx={{ fontSize: 24, fontWeight: "bold", textAlign: "justify" }}
-        >
-          {"Tech Stack"}
-        </Typography>
-        <TechCarousel />
-      </Box>
-      <Box flex={1} sx={{ alignSelf: "start" }}>
-        <Typography
-          sx={{ fontSize: 24, fontWeight: "bold", textAlign: "justify" }}
-        >
-          {"Experience"}
-        </Typography>
-        <ExperienceCard experiences={experience} />
-      </Box>
-      <Box flex={1} sx={{ alignSelf: "start" }}>
-        <Typography
-          sx={{ fontSize: 24, fontWeight: "bold", textAlign: "justify" }}
-        >
-          {" "}
-          Projects
-        </Typography>
-      </Box>
-      <Box flex={1} sx={{ alignSelf: "start" }}>
-        <Typography
-          sx={{ fontSize: 24, fontWeight: "bold", textAlign: "justify" }}
-        >
-          {" "}
-          Education
-        </Typography>
-      </Box>
-      <Box flex={1} sx={{ alignSelf: "start" }}>
-        <Typography
-          sx={{ fontSize: 24, fontWeight: "bold", textAlign: "justify" }}
-        >
-          {" "}
-        </Typography>
-      </Box>
-      <ToastContainer />
-    </Box>
+    <div className="app">
+      <Nav />
+      <div className="page-container">
+        <PageTransition>
+          <Routes location={location}>
+            <Route path="/" element={<Hero />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </PageTransition>
+      </div>
+      <Footer />
+    </div>
   );
 }
 
