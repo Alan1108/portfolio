@@ -13,7 +13,7 @@ export function Projects() {
         {data.projects.items.map((project) => (
           <div key={project.title} className="project-card">
             <div className="project-image">
-              <img src={project.image} alt={project.title} />
+              <img src={project.image} alt={`${project.title} - ${project.description || 'Project screenshot'}`} loading="lazy" />
             </div>
             <div className="project-content">
               <h3 className="project-title">{project.title}</h3>

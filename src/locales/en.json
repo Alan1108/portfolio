@@ -271,5 +271,57 @@
       "successMessage": "Message sent successfully! I'll get back to you soon.",
       "errorMessage": "Failed to send message. Please try again or email me directly."
     }
+  },
+
+  "seo": {
+    "defaultTitle": "Alan Bermudez | Senior Fullstack Developer",
+    "titleTemplate": "%s | Alan Bermudez",
+    "description": "Senior Fullstack Developer specializing in React, React Native, NestJS, and modern web technologies. Building scalable applications with expertise in frontend, backend, and mobile development.",
+    "keywords": [
+      "Fullstack Developer",
+      "React Developer",
+      "React Native",
+      "NestJS",
+      "Mobile Developer",
+      "Web Developer",
+      "Software Engineer",
+      "TypeScript",
+      "JavaScript",
+      "Ecuador Developer"
+    ],
+    "author": "Alan Bermudez",
+    "siteUrl": "https://aibm.dev",
+    "image": "/profile.jpg",
+    "twitterHandle": "@alanibm",
+    "pages": {
+      "home": {
+        "title": "Home",
+        "description": "Senior Fullstack Developer | Building modern web and mobile applications with React, React Native, and cutting-edge technologies."
+      },
+      "about": {
+        "title": "About Me",
+        "description": "Learn about my journey as a fullstack developer, my expertise in web and mobile development, and my passion for creating exceptional digital experiences."
+      },
+      "skills": {
+        "title": "Technical Skills",
+        "description": "Explore my technical expertise including React.js, React Native, NestJS, Python, Flutter, and modern development tools and frameworks."
+      },
+      "experience": {
+        "title": "Work Experience",
+        "description": "Discover my professional experience working with companies like Bolt Group, ioet, and Prowess EC, building fintech apps, accounting systems, and mobile solutions."
+      },
+      "education": {
+        "title": "Education & Certifications",
+        "description": "View my academic background and professional certifications including Google Cloud, Udemy courses, and Software Engineering degree."
+      },
+      "projects": {
+        "title": "Featured Projects",
+        "description": "Browse my portfolio of web and mobile applications showcasing my skills in React, React Native, and fullstack development."
+      },
+      "contact": {
+        "title": "Contact Me",
+        "description": "Get in touch for collaboration opportunities, freelance projects, or full-time positions. Let's build something amazing together!"
+      }
+    }
   }
 }

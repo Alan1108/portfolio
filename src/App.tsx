@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
+import { SEO } from './components/SEO';
 import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <LanguageProvider>
+      <SEO />
       <div className="app">
         <Nav />
         <div className="page-container">

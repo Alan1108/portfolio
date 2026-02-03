@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://aibm.dev/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aibm.dev/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://aibm.dev/" />
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://aibm.dev/about</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aibm.dev/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://aibm.dev/about" />
+  </url>
+  
+  <!-- Skills Page -->
+  <url>
+    <loc>https://aibm.dev/skills</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aibm.dev/skills" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://aibm.dev/skills" />
+  </url>
+  
+  <!-- Experience Page -->
+  <url>
+    <loc>https://aibm.dev/experience</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aibm.dev/experience" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://aibm.dev/experience" />
+  </url>
+  
+  <!-- Education Page -->
+  <url>
+    <loc>https://aibm.dev/education</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aibm.dev/education" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://aibm.dev/education" />
+  </url>
+  
+  <!-- Projects Page -->
+  <url>
+    <loc>https://aibm.dev/projects</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aibm.dev/projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://aibm.dev/projects" />
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://aibm.dev/contact</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aibm.dev/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://aibm.dev/contact" />
+  </url>
+  
+</urlset>

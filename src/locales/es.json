@@ -268,5 +268,57 @@
       "successMessage": "¡Mensaje enviado exitosamente! Te responderé pronto.",
       "errorMessage": "Error al enviar el mensaje. Por favor intenta de nuevo o escríbeme directamente."
     }
+  },
+
+  "seo": {
+    "defaultTitle": "Alan Bermudez | Desarrollador Fullstack Senior",
+    "titleTemplate": "%s | Alan Bermudez",
+    "description": "Desarrollador Fullstack Senior especializado en React, React Native, NestJS y tecnologías web modernas. Construyendo aplicaciones escalables con experiencia en desarrollo frontend, backend y móvil.",
+    "keywords": [
+      "Desarrollador Fullstack",
+      "Desarrollador React",
+      "React Native",
+      "NestJS",
+      "Desarrollador Móvil",
+      "Desarrollador Web",
+      "Ingeniero de Software",
+      "TypeScript",
+      "JavaScript",
+      "Desarrollador Ecuador"
+    ],
+    "author": "Alan Bermudez",
+    "siteUrl": "https://aibm.dev",
+    "image": "/profile.jpg",
+    "twitterHandle": "@alanibm",
+    "pages": {
+      "home": {
+        "title": "Inicio",
+        "description": "Desarrollador Fullstack Senior | Construyendo aplicaciones web y móviles modernas con React, React Native y tecnologías de vanguardia."
+      },
+      "about": {
+        "title": "Sobre Mí",
+        "description": "Conoce mi trayectoria como desarrollador fullstack, mi experiencia en desarrollo web y móvil, y mi pasión por crear experiencias digitales excepcionales."
+      },
+      "skills": {
+        "title": "Habilidades Técnicas",
+        "description": "Explora mi experiencia técnica incluyendo React.js, React Native, NestJS, Python, Flutter y herramientas y frameworks de desarrollo modernos."
+      },
+      "experience": {
+        "title": "Experiencia Laboral",
+        "description": "Descubre mi experiencia profesional trabajando con empresas como Bolt Group, ioet y Prowess EC, construyendo apps fintech, sistemas contables y soluciones móviles."
+      },
+      "education": {
+        "title": "Educación y Certificaciones",
+        "description": "Revisa mi formación académica y certificaciones profesionales incluyendo Google Cloud, cursos de Udemy y título en Ingeniería de Software."
+      },
+      "projects": {
+        "title": "Proyectos Destacados",
+        "description": "Explora mi portafolio de aplicaciones web y móviles que demuestran mis habilidades en React, React Native y desarrollo fullstack."
+      },
+      "contact": {
+        "title": "Contáctame",
+        "description": "Ponte en contacto para oportunidades de colaboración, proyectos freelance o posiciones de tiempo completo. ¡Construyamos algo increíble juntos!"
+      }
+    }
   }
 }
