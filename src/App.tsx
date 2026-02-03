@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
@@ -12,6 +13,10 @@ import { PageTransition } from './components/PageTransition';
 
 function App() {
   const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <div className="app">
