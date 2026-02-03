@@ -16,12 +16,12 @@ const wipeVariants = {
   animate: {
     scaleX: 0,
     originX: 1,
-    transition: { duration: 1.25, ease: [0.76, 0, 0.24, 1], delay: 0.05 },
+    transition: { duration: 1.25, ease: [0.76, 0, 0.24, 1] as const, delay: 0.05 },
   },
   exit: {
     scaleX: 1,
     originX: 0,
-    transition: { duration: 1.25, ease: [0.76, 0, 0.24, 1] },
+    transition: { duration: 1.25, ease: [0.76, 0, 0.24, 1] as const },
   },
 };
 
@@ -55,7 +55,7 @@ const contentVariants = {
     opacity: 1,
     y: 0,
     filter: 'blur(0px)',
-    transition: { duration: 1.25, delay: 0.25, ease: 'easeOut' },
+    transition: { duration: 1.25, delay: 0.25, ease: 'easeOut' as const },
   },
   exit: {
     opacity: 0,
