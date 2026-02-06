@@ -24,7 +24,7 @@
     "ctaButton": { "text": "$ hire", "href": "/contact" },
     "cvButton": {
       "text": "$ descargar CV",
-      "href": "https://drive.google.com/file/d/1UQWdIhz740rTx25aFVXYDitLR48OeV3t/view?usp=sharing"
+      "href": "https://drive.google.com/file/d/1NMNRnggZZaHR4tb9-Vyi0SeqdyYP96MV/view?usp=drive_link"
     }
   },
 
@@ -68,10 +68,16 @@
         "description": "Diseño y mejora de la API y la aplicación móvil enfocada en educación financiera y acceso a crédito[cite: 14]. Utilizo React Native, Expo y Nest.js para desarrollar funcionalidades que ayudan a los usuarios a aprender sobre finanzas y ofrecen tarjetas de crédito basadas en sus hábitos[cite: 15]. Mis responsabilidades incluyen la implementación de nuevas funciones, resolución de cuellos de botella de rendimiento y asegurar una UI/UX fluida[cite: 16]."
       },
       {
+        "role": "$ ingeniero_de_software",
+        "company": "@ New Combin",
+        "date": "[2025-2026]",
+        "description": "En mi rol como desarrollador de software, diseñé una plataforma de transmisión de alto rendimiento utilizando Vue para un frontend responsivo y Express para una arquitectura backend robusta. Arquitecté el sistema para soportar transmisiones simultáneas a YouTube, Twitch, Facebook y puntos finales RTMP personalizados, aprovechando Nginx como motor central y AMQP para un sistema de notificaciones asíncrono y escalable. Además de la distribución en vivo, desarrollé herramientas de edición y recorte de video que permitieron a los creadores reutilizar contenido multiplataforma, gestionando metadatos y datos de usuario a través de PostgreSQL."
+      },
+      {
         "role": "$ ingeniero_de_software_semi-senior",
         "company": "@ ioet",
         "date": "[2022-2025]",
-        "description": "Desarrollador Fullstack en múltiples proyectos, incluyendo una aplicación de contabilidad para EE.UU. que utiliza IA para la clasificación de documentos y sistemas internos de nómina[cite: 25, 26, 37]. Actué como Auditor de Código para Warby Parker verificando protocolos de seguridad y como Trainee de Ingeniero DevOps gestionando infraestructura en la nube de AWS con Terraform y Ansible[cite: 21, 35]."
+        "description": "Ingeniero de Software Fullstack especializado en la construcción de aplicaciones seguras de alto rendimiento y en la optimización de infraestructura en la nube. Experimentado en el desarrollo de extremo a extremo con un fuerte énfasis en protocolos de seguridad, procesamiento de documentos impulsado por IA y despliegues automatizados vía Terraform y GitHub Actions. Experto en unir la arquitectura backend compleja con interfaces de usuario intuitivas, con experiencia en optimización de VPN y auditoría rigurosa de sistemas para asegurar estabilidad de nivel empresarial."
       },
       {
         "role": "$ desarrollador_móvil",

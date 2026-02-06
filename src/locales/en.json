@@ -24,7 +24,7 @@
     "ctaButton": { "text": "$ hire", "href": "/contact" },
     "cvButton": {
       "text": "$ download CV",
-      "href": "https://drive.google.com/file/d/1UQWdIhz740rTx25aFVXYDitLR48OeV3t/view?usp=sharing"
+      "href": "https://drive.google.com/file/d/1NMNRnggZZaHR4tb9-Vyi0SeqdyYP96MV/view?usp=drive_link"
     }
   },
 
@@ -70,10 +70,16 @@
         "description": "My responsibilities span the full development lifecycle, including implementing new features, resolving performance bottlenecks, ensuring a smooth and intuitive UI/UX, integrating user feedback, and maintaining the end-to-end functionality that drives the projects' capabilities."
       },
       {
+        "role": "$ software_engineer",
+        "company": "@ New Combin",
+        "date": "[2025-2026]",
+        "description": "In my role as a software developer, I engineered a high-performance streaming platform utilizing Vue for a responsive frontend and Express to manage a robust backend architecture. I architected the system to support concurrent broadcasting to YouTube, Twitch, Facebook, and custom RTMP endpoints, leveraging Nginx as the core streaming engine and AMQP to handle a scalable, asynchronous notification system. Beyond live distribution, I developed integrated video editing and clipping tools that allowed creators to repurpose content for cross-platform delivery, with all media metadata and user data managed via PostgreSQL."
+      },
+      {
         "role": "$ semi-senior_software_engineer",
         "company": "@ ioet",
         "date": "[2022-2025]",
-        "description": "Fullstack Developer for multiple projects including a US accounting application using AI for document classification and internal payroll systems. Acted as a Code Auditor for Warby Parker to verify security protocols and a DevOps Engineer Trainee managing AWS cloud infrastructure with Terraform and Ansible."
+        "description": "Fullstack Software Engineer specialized in building secure, high-performance applications and optimizing cloud infrastructure. Experienced in end-to-end development with a strong emphasis on security protocols, AI-driven document processing, and automated deployments via Terraform and GitHub Actions. Adept at bridging the gap between complex backend architecture and intuitive user interfaces, with a background in VPN optimization and rigorous system auditing to ensure enterprise-grade stability."
       },
       {
         "role": "$ mobile_developer",
