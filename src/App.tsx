@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import { SEO } from './components/SEO';
@@ -40,6 +41,7 @@ function App() {
         </div>
         <Footer />
       </div>
+      <Analytics />
     </LanguageProvider>
   );
 }
