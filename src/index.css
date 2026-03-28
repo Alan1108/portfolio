@@ -1208,6 +1208,154 @@ input, textarea {
 }
 
 /* ========================================
+   Talks Section
+   ======================================== */
+.talks {
+  background: var(--bg-card);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid var(--teal-accent);
+  min-height: calc(100vh - 60px);
+  justify-content: center;
+}
+
+.talks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.talk-card {
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.talk-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.talk-title {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white-primary);
+}
+
+.talk-event {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--teal-accent);
+  margin-top: 8px;
+}
+
+.talk-date {
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--gray-500);
+  flex-shrink: 0;
+}
+
+.talk-desc {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-on-primary);
+  line-height: 1.6;
+}
+
+.talk-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--teal-accent);
+  text-decoration: none;
+  transition: opacity 0.2s;
+  width: fit-content;
+}
+
+.talk-link:hover {
+  opacity: 0.8;
+}
+
+.talks-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.talks-photos-title {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--teal-accent);
+}
+
+.talks-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.talks-photo-item {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.talks-photo-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.talks-photo-item:hover img {
+  transform: scale(1.04);
+}
+
+@media (min-width: 640px) {
+  .talks {
+    padding: 60px 40px;
+    gap: 48px;
+    min-height: calc(100vh - 80px);
+  }
+  .talk-card {
+    padding: 24px;
+    gap: 16px;
+  }
+  .talk-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .talks-photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .talks-photo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* ========================================
    Contact Section
    ======================================== */
 .contact {

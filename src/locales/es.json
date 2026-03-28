@@ -19,6 +19,7 @@
       { "label": "Experiencia/", "href": "/experience" },
       { "label": "Educación/", "href": "/education" },
       { "label": "Proyectos/", "href": "/projects" },
+      { "label": "Charlas/", "href": "/talks" },
       { "label": "Contacto/", "href": "/contact" }
     ],
     "ctaButton": { "text": "$ hire", "href": "/contact" },
@@ -228,6 +229,58 @@
     ]
   },
 
+  "talks": {
+    "title": "// charlas",
+    "items": [
+      {
+        "title": "$ Vertex AI Agent Builder: De Codigo a Agentes en minutos",
+        "event": "@ Road to Build with AI Tegucigalpa",
+        "date": "[2026]",
+        "description": "Esta charla explora cómo utilizar Vertex AI Agent Builder para crear agentes de IA personalizados que puedan automatizar tareas complejas, responder preguntas de manera inteligente y mejorar la productividad en entornos empresariales.",
+        "url": "#"
+      },
+      {
+        "title": "$ IA+Agro: Cómo utilizar la IA para la agroindustria",
+        "event": "@ ExperiencIAAS Bootcamp",
+        "date": "[2026]",
+        "description": "Esta charla explora cómo utilizar la IA para automatizar tareas complejas, responder preguntas de manera inteligente y mejorar la productividad en entornos empresariales.",
+        "url": "#"
+      },
+      {
+        "title": "$ VSCode vs Cursor: Como transicionar sin tener que volver",
+        "event": "@ Cursor Quito",
+        "date": "[2025]",
+        "description": "Esta charla cubre cómo transicionar de VSCode a Cursor y qué herramientas ofrece para mejorar la productividad.",
+        "url": "#"
+      },
+      {
+        "title": "$ ¿Qué Hay Detrás de la UI? El Poder de las APIs",
+        "event": "@ CEUTEC Honduras",
+        "date": "[2025]",
+        "description": "Esta charla explora cómo utilizar las APIs para automatizar tareas complejas, responder preguntas de manera inteligente y mejorar la productividad en entornos empresariales.",
+        "url": "#"
+      },
+      {
+        "title": "$ Asincronia y Go: La dupla perfecta para APIs mas eficientes",
+        "event": "@ Congreso GasTech",
+        "date": "[2025]",
+        "description": "Esta charla explora cómo utilizar la IA para automatizar tareas complejas, responder preguntas de manera inteligente y mejorar la productividad en entornos empresariales.",
+        "url": "#"
+      },
+      {
+        "title": "$ Forgejo, el GitHub Libre",
+        "event": "@ GDG Ecuador / Road to DevFest Ecuador",
+        "date": "[2024]",
+        "description": "Esta charla explora cómo utilizar las APIs para automatizar tareas complejas, responder preguntas de manera inteligente y mejorar la productividad en entornos empresariales.",
+        "url": "https://www.youtube.com/live/ignA_r6YCOU?si=VkTih3WokdRusvAp"
+      }
+    ],
+    "photos": {
+      "title": "$ ls charlas/fotos",
+      "images": []
+    }
+  },
+
   "contact": {
     "title": "// contáctame",
     "subtitle": "$ email --enviar",
@@ -242,6 +295,7 @@
       { "label": "> Experiencia", "href": "/experience" },
       { "label": "> Proyectos", "href": "/projects" },
       { "label": "> Educación", "href": "/education" },
+      { "label": "> Charlas", "href": "/talks" },
       { "label": "> Contacto", "href": "/contact" }
     ],
     "connectLinks": [
@@ -264,6 +318,9 @@
     "footer": {
       "quickLinksTitle": "Enlaces Rápidos",
       "connectTitle": "Conectar"
+    },
+    "talks": {
+      "viewTalk": "> ver_charla"
     },
     "contact": {
       "namePlaceholder": "tu_nombre",
@@ -320,6 +377,10 @@
       "projects": {
         "title": "Proyectos Destacados",
         "description": "Explora mi portafolio de aplicaciones web y móviles que demuestran mis habilidades en React, React Native y desarrollo fullstack."
+      },
+      "talks": {
+        "title": "Charlas y Conferencias",
+        "description": "Explora mis charlas y presentaciones en conferencias sobre desarrollo de software y tecnologías web modernas."
       },
       "contact": {
         "title": "Contáctame",

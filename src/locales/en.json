@@ -19,6 +19,7 @@
       { "label": "experience/", "href": "/experience" },
       { "label": "education/", "href": "/education" },
       { "label": "projects/", "href": "/projects" },
+      { "label": "talks/", "href": "/talks" },
       { "label": "contact/", "href": "/contact" }
     ],
     "ctaButton": { "text": "$ hire", "href": "/contact" },
@@ -230,6 +231,58 @@
     ]
   },
 
+  "talks": {
+    "title": "// talks",
+    "items": [
+      {
+        "title": "$ Vertex AI Agent Builder: From Code to Agents in minutes",
+        "event": "@ Road to Build with AI Tegucigalda",
+        "date": "[2026]",
+        "description": "This talk explores how to use Vertex AI Agent Builder to create custom AI agents that can automate complex tasks, intelligently answer questions, and improve productivity in enterprise environments.",
+        "url": "#"
+      },
+      {
+        "title": "$ IA+Agro: How to use AI for the agroindustry",
+        "event": "@ ExperiencIAAS Bootcamp",
+        "date": "[2026]",
+        "description": "This talk explores how to use AI to automate complex tasks, intelligently answer questions, and improve productivity in enterprise environments.",
+        "url": "#"
+      },
+      {
+        "title": "$ VSCode vs Cursor: How to transition without going back",
+        "event": "@ Cursor Quito",
+        "date": "[2025]",
+        "description": "This talk covers how to transition from VSCode to Cursor and what tools it offers to improve productivity.",
+        "url": "#"
+      },
+      {
+        "title": "$ What is Behind the UI? The Power of APIs",
+        "event": "@ CEUTEC Honduras",
+        "date": "[2025]",
+        "description": "This talk explores how to use APIs to automate complex tasks, intelligently answer questions, and improve productivity in enterprise environments.",
+        "url": "#"
+      },
+      {
+        "title": "$ Asynchrony and Go: The perfect duo for more efficient APIs",
+        "event": "@ Congreso GasTech",
+        "date": "[2025]",
+        "description": "This talk explores how to use AI to automate complex tasks, intelligently answer questions, and improve productivity in enterprise environments.",
+        "url": "#"
+      },
+      {
+        "title": "$ Forgejo, the Free GitHub",
+        "event": "@ GDG Ecuador / Road to DevFest Ecuador",
+        "date": "[2024]",
+        "description": "This talk explores how to use APIs to automate complex tasks, intelligently answer questions, and improve productivity in enterprise environments.",
+        "url": "https://www.youtube.com/live/ignA_r6YCOU?si=VkTih3WokdRusvAp"
+      }
+    ],
+    "photos": {
+      "title": "$ ls talks/photos",
+      "images": []
+    }
+  },
+
   "contact": {
     "title": "// contact_me",
     "subtitle": "$ email --send",
@@ -244,6 +297,7 @@
       { "label": "> Skills", "href": "/skills" },
       { "label": "> Education", "href": "/education" },
       { "label": "> Experience", "href": "/experience" },
+      { "label": "> Talks", "href": "/talks" },
       { "label": "> Contact", "href": "/contact" }
     ],
     "connectLinks": [
@@ -267,6 +321,9 @@
     "footer": {
       "quickLinksTitle": "Quick Links",
       "connectTitle": "Connect"
+    },
+    "talks": {
+      "viewTalk": "> view_talk"
     },
     "contact": {
       "namePlaceholder": "your_name",
@@ -323,6 +380,10 @@
       "projects": {
         "title": "Featured Projects",
         "description": "Browse my portfolio of web and mobile applications showcasing my skills in React, React Native, and fullstack development."
+      },
+      "talks": {
+        "title": "Talks & Conferences",
+        "description": "Explore my conference talks and presentations on software development and modern web technologies."
       },
       "contact": {
         "title": "Contact Me",
