@@ -35,15 +35,17 @@ export function Projects() {
                   <ExternalLink size={18} />
                   {data.ui.projects.viewLive}
                 </a>
-                <a
-                  href={project.codeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project-link project-link--code"
-                >
-                  <Github size={18} />
-                  {data.ui.projects.viewCode}
-                </a>
+                {project.codeUrl && (
+                  <a
+                    href={project.codeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link project-link--code"
+                  >
+                    <Github size={18} />
+                    {data.ui.projects.viewCode}
+                  </a>
+                )}
               </div>
             </div>
           </div>

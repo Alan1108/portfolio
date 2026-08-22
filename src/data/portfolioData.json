@@ -1,6 +1,6 @@
 {
   "personal": {
-    "logo": "> portfolio_",
+    "logo": "> aibm.dev",
     "name": "> alan_bermudez",
     "displayName": "Alan Bermudez",
     "greeting": "// Hello There!",
@@ -19,14 +19,15 @@
       { "label": "experience/", "href": "/experience" },
       { "label": "education/", "href": "/education" },
       { "label": "projects/", "href": "/projects" },
-      { "label": "contact/", "href": "/contact" }
+      { "label": "contact/", "href": "/contact" },
+      { "label": "talks/", "href": "/talks" }
     ],
     "ctaButton": { "text": "$ hire", "href": "/contact" }
   },
 
   "hero": {
     "buttons": [
-      { "text": "$ ls projects/", "href": "/projects", "variant": "primary" },
+      { "text": "$ ls experience/", "href": "/experience", "variant": "primary" },
       {
         "text": "$ contact --email",
         "href": "/contact",

@@ -9,7 +9,7 @@ export function Experience() {
       </div>
       <div className="exp-list">
         {data.experience.items.map((exp) => (
-          <div key={exp.role} className="exp-card">
+          <div key={`${exp.company}-${exp.date}`} className="exp-card">
             <div className="exp-header">
               <div>
                 <div className="exp-role">{exp.role}</div>
@@ -17,7 +17,11 @@ export function Experience() {
               </div>
               <span className="exp-date">{exp.date}</span>
             </div>
-            <p className="exp-desc">{exp.description}</p>
+            <ul className="exp-desc">
+              {exp.bullets.map((bullet, i) => (
+                <li key={i}>{bullet}</li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>

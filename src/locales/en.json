@@ -1,6 +1,6 @@
 {
   "personal": {
-    "logo": "> portfolio_",
+    "logo": "> aibm.dev",
     "name": "> alan_bermudez",
     "displayName": "Alan Bermudez",
     "greeting": "// Hello There!",
@@ -31,7 +31,7 @@
 
   "hero": {
     "buttons": [
-      { "text": "$ ls projects/", "href": "/projects", "variant": "primary" },
+      { "text": "$ ls experience/", "href": "/experience", "variant": "primary" },
       {
         "text": "$ contact --email",
         "href": "/contact",
@@ -51,11 +51,17 @@
   "about": {
     "title": "// about_me",
     "paragraphs": [
-      "I'm a passionate fullstack developer with over 5 years of experience building modern, scalable web and mobile applications. I specialize in React, TypeScript, Node.js, and modern full-stack frameworks, with expertise spanning from frontend interfaces to backend APIs and databases.",
-      "My approach combines technical expertise across the entire stack with a keen eye for design, ensuring that every project I work on is both functional and beautiful. I'm committed to writing clean, maintainable code and staying current with the latest technologies in both frontend and backend development."
+      "I build web and mobile products that ship and stay in production.",
+      "Fullstack Developer with 6+ years across the full delivery cycle: cross-platform mobile apps with React Native & Expo, modern web with React & Next.js, and backend APIs with Node.js & NestJS, all in TypeScript, backed by PostgreSQL and deployed on AWS.",
+      "What I've been working on lately:",
+      "• Leading multiple products as Tech Lead at Bolt: React Native apps and NestJS APIs in production, PostgreSQL data modeling, and clearing performance bottlenecks.",
+      "• At ioet: hardening authorization and RBAC on a high-traffic app (Warby Parker), and leading an end-to-end UI renovation in React/Next.js (Cynch.ai).",
+      "• Automating cloud deployments on AWS with Terraform, Ansible, and GitHub Actions.",
+      "I care about clean code, solid architecture, and agile teamwork, and I use AI tooling (Claude Code) to ship faster without trading away quality.",
+      "Beyond the code, I'm the Founder & Lead of Google Developer Group (GDG) Quito, where I organize technical talks and mentor junior engineers."
     ],
     "stats": [
-      { "number": "5", "label": "++ years", "color": "green" },
+      { "number": "6", "label": "++ years", "color": "green" },
       { "number": "10", "label": "++ projects", "color": "teal" },
       { "number": "5", "label": "++ clients", "color": "purple" }
     ]
@@ -65,34 +71,58 @@
     "title": "// experience",
     "items": [
       {
-        "role": "$ senior_software_engineer",
+        "role": "$ fullstack_developer_&_tech_lead",
         "company": "@ Bolt Group",
         "date": "[2025-present]",
-        "description": "My responsibilities span the full development lifecycle, including implementing new features, resolving performance bottlenecks, ensuring a smooth and intuitive UI/UX, integrating user feedback, and maintaining the end-to-end functionality that drives the projects' capabilities."
+        "bullets": [
+          "Lead development across multiple products as Tech Lead, taking them from concept to production, including ZapX, a mobile app for finding photographers in your area, and a news platform.",
+          "Own end-to-end architecture and delivery across products, from Nest.js APIs to React Native / Expo apps on PostgreSQL and AWS.",
+          "Set code-quality and architecture standards across teams and resolve performance bottlenecks, using AI tooling (Claude Code) to accelerate delivery."
+        ]
       },
       {
         "role": "$ software_engineer",
         "company": "@ New Combin",
         "date": "[2025-2026]",
-        "description": "In my role as a software developer, I engineered a high-performance streaming platform utilizing Vue for a responsive frontend and Express to manage a robust backend architecture. I architected the system to support concurrent broadcasting to YouTube, Twitch, Facebook, and custom RTMP endpoints, leveraging Nginx as the core streaming engine and AMQP to handle a scalable, asynchronous notification system. Beyond live distribution, I developed integrated video editing and clipping tools that allowed creators to repurpose content for cross-platform delivery, with all media metadata and user data managed via PostgreSQL."
+        "bullets": [
+          "Engineered a high-performance streaming platform with Vue on the frontend and Express on the backend, supporting concurrent broadcasting to YouTube, Twitch, Facebook, and custom RTMP endpoints via Nginx.",
+          "Built a scalable, asynchronous notification system with AMQP, and integrated video editing and clipping tools that let creators repurpose content for cross-platform delivery, with media metadata and user data on PostgreSQL."
+        ]
       },
       {
-        "role": "$ semi-senior_software_engineer",
+        "role": "$ mid_level_software_engineer",
         "company": "@ ioet",
-        "date": "[2022-2025]",
-        "description": "Fullstack Software Engineer specialized in building secure, high-performance applications and optimizing cloud infrastructure. Experienced in end-to-end development with a strong emphasis on security protocols, AI-driven document processing, and automated deployments via Terraform and GitHub Actions. Adept at bridging the gap between complex backend architecture and intuitive user interfaces, with a background in VPN optimization and rigorous system auditing to ensure enterprise-grade stability."
+        "date": "[2023-2025]",
+        "bullets": [
+          "Warby Parker: Hardened application-wide access control by identifying and patching permission-level security vulnerabilities across the project lifecycle.",
+          "Cynch.ai: Cut manual classification effort for US accounting teams by leading a UI/UX overhaul and delivering an end-to-end document-linking workflow.",
+          "Shaped architecture decisions and code quality across agile, distributed teams."
+        ]
+      },
+      {
+        "role": "$ junior_software_engineer",
+        "company": "@ ioet",
+        "date": "[2022-2023]",
+        "bullets": [
+          "Delivered four concurrent internal systems: staffing tracking, payroll processing, and performance evaluation, while upskilling into DevOps.",
+          "Simplified Cloudbrink's VPN client onboarding with Golang tooling that removed a complex manual configuration and automated AWS deployments with Terraform and Ansible."
+        ]
       },
       {
         "role": "$ mobile_developer",
         "company": "@ Prowess EC",
         "date": "[2021-2022]",
-        "description": "Designed and implemented user interfaces for a delivery application designed for Venezuelan immigrants and refugees. Utilized Flutter and Dart to create a seamless user experience and integrated Firebase for authentication and database management."
+        "bullets": [
+          "Delivered the full UI of a cross-platform delivery app serving Venezuelan immigrants and newly arrived refugees, a population with limited access to digital services, built with Flutter/Dart and Firebase (auth + real-time data), driving social impact at scale."
+        ]
       },
       {
         "role": "$ .NET_developer",
         "company": "@ Microsoft Community",
         "date": "[2020]",
-        "description": "Developed a Hospital Management System during the COVID-19 pandemic. Responsible for designing patient registration and appointment assignation using .NET and C#. Developed user interfaces for the patient portal to enhance system usability using Blazor Pages."
+        "bullets": [
+          "Supported patient care during the COVID-19 pandemic by contributing to a Hospital Management System: implemented patient registration and appointment scheduling in C#, and built the patient portal with Blazor Pages, improving usability for clinical staff and patients under high-pressure conditions."
+        ]
       }
     ]
   },
@@ -151,6 +181,19 @@
     "title": "// featured_projects",
     "subtitle": "$ ls -la projects/",
     "items": [
+      {
+        "title": "> Salva_o_Condena/",
+        "description": "Resource-management game built for a game jam this year. You play an alchemist rationing a finite stock of potions across four villagers who never heal on their own \u2014 every week forces a choice between two losses. Built with Phaser 4 and React, with a seeded RNG driving emergent accidents, catastrophes, and permanent conditions.",
+        "image": "/salva-o-condena.jpg",
+        "tech": [
+          "Phaser",
+          "React",
+          "TypeScript",
+          "Vite"
+        ],
+        "liveUrl": "https://salva-o-condena.vercel.app/",
+        "codeUrl": ""
+      },
       {
         "title": "> Stock_App/",
         "description": "",

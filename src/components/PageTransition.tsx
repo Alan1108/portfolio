@@ -9,6 +9,7 @@ const routeCommands: Record<string, string> = {
   '/experience': '> cat experience.log',
   '/education': '> cat education.txt',
   '/contact': '> mail --compose',
+  '/talks': '> ls talks/'
 };
 
 const wipeVariants = {

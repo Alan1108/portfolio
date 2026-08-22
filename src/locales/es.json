@@ -1,6 +1,6 @@
 {
   "personal": {
-    "logo": "> portfolio_",
+    "logo": "> aibm.dev",
     "name": "> alan_bermudez",
     "displayName": "Alan Bermudez",
     "greeting": "// Hello There!",
@@ -49,11 +49,17 @@
   "about": {
     "title": "// sobre_mi",
     "paragraphs": [
-      "Soy un desarrollador fullstack apasionado con mas de 5 anos de experiencia construyendo aplicaciones web modernas y escalables. Me especializo en React, TypeScript y frameworks modernos de JavaScript. Ademas de esto, tengo experiencia en el desarrollo de aplicaciones moviles con React Native y tambien en desarrollo backend.",
-      "Mi enfoque combina experiencia tecnica con un ojo agudo para el diseno, asegurando que cada proyecto en el que trabajo sea funcional y atractivo. Estoy comprometido con escribir codigo limpio y mantenible, manteniendome al dia con las ultimas tecnologias web."
+      "Construyo productos web y móviles que se lanzan y se mantienen en producción.",
+      "Desarrollador Fullstack con más de 6 años de experiencia en todo el ciclo de entrega: apps móviles multiplataforma con React Native y Expo, web moderna con React y Next.js, y APIs backend con Node.js y NestJS, todo en TypeScript, respaldado por PostgreSQL y desplegado en AWS.",
+      "En lo que he estado trabajando últimamente:",
+      "• Liderando varios productos como Tech Lead en Bolt: apps en React Native y APIs en NestJS en producción, modelado de datos en PostgreSQL y resolución de cuellos de botella de rendimiento.",
+      "• En ioet: fortaleciendo la autorización y el RBAC de una aplicación de alto tráfico (Warby Parker), y liderando una renovación de UI de extremo a extremo en React/Next.js (Cynch.ai).",
+      "• Automatizando despliegues en la nube sobre AWS con Terraform, Ansible y GitHub Actions.",
+      "Me importan el código limpio, la arquitectura sólida y el trabajo en equipo ágil, y uso herramientas de IA (Claude Code) para entregar más rápido sin sacrificar calidad.",
+      "Más allá del código, soy Fundador y Líder del Google Developer Group (GDG) Quito, donde organizo charlas técnicas y mentoreo a ingenieros junior."
     ],
     "stats": [
-      { "number": "5", "label": "++ años", "color": "green" },
+      { "number": "6", "label": "++ años", "color": "green" },
       { "number": "10", "label": "++ proyectos", "color": "teal" },
       { "number": "5", "label": "++ clientes", "color": "purple" }
     ]
@@ -63,34 +69,58 @@
     "title": "// experiencia",
     "items": [
       {
-        "role": "$ desarrollador_mobile_fullstack",
+        "role": "$ desarrollador_fullstack_&_tech_lead",
         "company": "@ Bolt Group",
         "date": "[2025-presente]",
-        "description": "Diseño y mejora de la API y la aplicación móvil enfocada en educación financiera y acceso a crédito[cite: 14]. Utilizo React Native, Expo y Nest.js para desarrollar funcionalidades que ayudan a los usuarios a aprender sobre finanzas y ofrecen tarjetas de crédito basadas en sus hábitos[cite: 15]. Mis responsabilidades incluyen la implementación de nuevas funciones, resolución de cuellos de botella de rendimiento y asegurar una UI/UX fluida[cite: 16]."
+        "bullets": [
+          "Lidero el desarrollo de varios productos como Tech Lead, llevándolos de la idea a producción, incluyendo ZapX, una app móvil para encontrar fotógrafos cerca de ti, y una plataforma de noticias.",
+          "Soy responsable de la arquitectura y la entrega de extremo a extremo, desde APIs en Nest.js hasta apps en React Native / Expo sobre PostgreSQL y AWS.",
+          "Defino estándares de calidad de código y arquitectura entre equipos y resuelvo cuellos de botella de rendimiento, usando herramientas de IA (Claude Code) para acelerar la entrega."
+        ]
       },
       {
         "role": "$ ingeniero_de_software",
         "company": "@ New Combin",
         "date": "[2025-2026]",
-        "description": "En mi rol como desarrollador de software, diseñé una plataforma de transmisión de alto rendimiento utilizando Vue para un frontend responsivo y Express para una arquitectura backend robusta. Arquitecté el sistema para soportar transmisiones simultáneas a YouTube, Twitch, Facebook y puntos finales RTMP personalizados, aprovechando Nginx como motor central y AMQP para un sistema de notificaciones asíncrono y escalable. Además de la distribución en vivo, desarrollé herramientas de edición y recorte de video que permitieron a los creadores reutilizar contenido multiplataforma, gestionando metadatos y datos de usuario a través de PostgreSQL."
+        "bullets": [
+          "Diseñé una plataforma de transmisión de alto rendimiento con Vue en el frontend y Express en el backend, con soporte para transmisiones simultáneas a YouTube, Twitch, Facebook y endpoints RTMP personalizados mediante Nginx.",
+          "Construí un sistema de notificaciones asíncrono y escalable con AMQP, e integré herramientas de edición y recorte de video que permitieron a los creadores reutilizar contenido multiplataforma, con metadatos y datos de usuario en PostgreSQL."
+        ]
       },
       {
-        "role": "$ ingeniero_de_software_semi-senior",
+        "role": "$ ingeniero_de_software_mid_level",
         "company": "@ ioet",
-        "date": "[2022-2025]",
-        "description": "Ingeniero de Software Fullstack especializado en la construcción de aplicaciones seguras de alto rendimiento y en la optimización de infraestructura en la nube. Experimentado en el desarrollo de extremo a extremo con un fuerte énfasis en protocolos de seguridad, procesamiento de documentos impulsado por IA y despliegues automatizados vía Terraform y GitHub Actions. Experto en unir la arquitectura backend compleja con interfaces de usuario intuitivas, con experiencia en optimización de VPN y auditoría rigurosa de sistemas para asegurar estabilidad de nivel empresarial."
+        "date": "[2023-2025]",
+        "bullets": [
+          "Warby Parker: Fortalecí el control de acceso de toda la aplicación identificando y corrigiendo vulnerabilidades de seguridad a nivel de permisos durante todo el ciclo de vida del proyecto.",
+          "Cynch.ai: Reduje el esfuerzo de clasificación manual de equipos contables en EE. UU. liderando una renovación de UI/UX y entregando un flujo de vinculación de documentos de extremo a extremo.",
+          "Influí en decisiones de arquitectura y en la calidad del código en equipos ágiles y distribuidos."
+        ]
+      },
+      {
+        "role": "$ ingeniero_de_software_junior",
+        "company": "@ ioet",
+        "date": "[2022-2023]",
+        "bullets": [
+          "Entregué cuatro sistemas internos en paralelo: seguimiento de staffing, procesamiento de nómina y evaluación de desempeño, mientras me especializaba en DevOps.",
+          "Simplifiqué el onboarding del cliente VPN de Cloudbrink con herramientas en Golang que eliminaron una configuración manual compleja, y automaticé despliegues en AWS con Terraform y Ansible."
+        ]
       },
       {
         "role": "$ desarrollador_móvil",
         "company": "@ Prowess EC",
         "date": "[2021-2022]",
-        "description": "Diseño e implementación de interfaces de usuario para una aplicación de entregas dirigida a inmigrantes y refugiados venezolanos[cite: 48]. Utilicé Flutter y Dart para crear una experiencia de usuario sin fricciones e integré Firebase para la autenticación y gestión de bases de datos[cite: 49]."
+        "bullets": [
+          "Entregué la UI completa de una app de entregas multiplataforma para inmigrantes venezolanos y refugiados recién llegados, una población con acceso limitado a servicios digitales, construida con Flutter/Dart y Firebase (autenticación + datos en tiempo real), generando impacto social a escala."
+        ]
       },
       {
         "role": "$ desarrollador_.NET",
         "company": "@ Microsoft Community",
         "date": "[2020]",
-        "description": "Desarrollo de un Sistema de Gestión Hospitalaria durante la pandemia de COVID-19[cite: 54]. Responsable del diseño del registro de pacientes y asignación de citas utilizando .NET y C#[cite: 55]. Desarrollé interfaces de usuario para el portal del paciente utilizando Blazor Pages para mejorar la usabilidad del sistema[cite: 56]."
+        "bullets": [
+          "Apoyé la atención a pacientes durante la pandemia de COVID-19 contribuyendo a un Sistema de Gestión Hospitalaria: implementé el registro de pacientes y la asignación de citas en C#, y construí el portal del paciente con Blazor Pages, mejorando la usabilidad para el personal clínico y los pacientes en condiciones de alta presión."
+        ]
       }
     ]
   },
@@ -149,6 +179,19 @@
     "title": "// proyectos",
     "subtitle": "$ ls -la proyectos/",
     "items": [
+      {
+        "title": "> Salva_o_Condena/",
+        "description": "Juego de gesti\u00f3n de recursos hecho para una game jam este a\u00f1o. Eres un alquimista que raciona un stock finito de pociones entre cuatro aldeanos que nunca se curan solos: cada semana obliga a elegir entre dos p\u00e9rdidas. Construido con Phaser 4 y React, con un RNG con semilla que genera accidentes emergentes, cat\u00e1strofes y condiciones permanentes.",
+        "image": "/salva-o-condena.jpg",
+        "tech": [
+          "Phaser",
+          "React",
+          "TypeScript",
+          "Vite"
+        ],
+        "liveUrl": "https://salva-o-condena.vercel.app/",
+        "codeUrl": ""
+      },
       {
         "title": "> Stock_App/",
         "description": "",

@@ -63,7 +63,7 @@ export function Nav() {
             {link.label}
           </Link>
         ))}
-        <a
+        {/* <a
           href={data.navigation.cvButton.href}
           target="_blank"
           rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export function Nav() {
           onClick={close}
         >
           {data.navigation.cvButton.text}
-        </a>
+        </a> */}
         <Link to={data.navigation.ctaButton.href} className="nav-cta cursor-pointer w-fit" onClick={close}>
           {data.navigation.ctaButton.text}
         </Link>
