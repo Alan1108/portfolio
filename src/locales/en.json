@@ -182,6 +182,22 @@
     "subtitle": "$ ls -la projects/",
     "items": [
       {
+        "title": "> Notara/",
+        "description": "The app I'm building right now. A voice-first note-taking app for iPhone and Android: tap one button and Notara turns classes, meetings and ideas into clear notes, summaries and study material. Transcription runs on-device, even offline, with AI summaries, cross-device sync and Class, Meeting and Personal modes.",
+        "image": "/notara.jpg",
+        "tech": ["React Native", "TypeScript", "Supabase", "Gemini", "RevenueCat"],
+        "liveUrl": "https://notaraapp.com",
+        "codeUrl": ""
+      },
+      {
+        "title": "> DentalCapi/",
+        "description": "Landing page for a dental and medical supplies distributor in Quito with 20+ years in business. It covers a product guide across 10 categories, live upcoming free-delivery dates by city, wholesale info and WhatsApp quoting, and it's SEO-optimized for local search.",
+        "image": "/dentalcapi.jpg",
+        "tech": ["Astro", "TypeScript", "SEO"],
+        "liveUrl": "https://dentalcapi.com",
+        "codeUrl": ""
+      },
+      {
         "title": "> Salva_o_Condena/",
         "description": "Resource-management game built for a game jam this year. You play an alchemist rationing a finite stock of potions across four villagers who never heal on their own \u2014 every week forces a choice between two losses. Built with Phaser 4 and React, with a seeded RNG driving emergent accidents, catastrophes, and permanent conditions.",
         "image": "/salva-o-condena.jpg",

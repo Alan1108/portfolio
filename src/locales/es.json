@@ -180,6 +180,22 @@
     "subtitle": "$ ls -la proyectos/",
     "items": [
       {
+        "title": "> Notara/",
+        "description": "La app que estoy construyendo ahora mismo. Una app de notas por voz para iPhone y Android: tocas un botón y Notara convierte tus clases, reuniones e ideas en notas claras, resúmenes y material de estudio. La transcripción ocurre en el teléfono, incluso sin conexión, con resúmenes con IA, sincronización entre dispositivos y modos Clase, Reunión y Personal.",
+        "image": "/notara.jpg",
+        "tech": ["React Native", "TypeScript", "Supabase", "Gemini", "RevenueCat"],
+        "liveUrl": "https://notaraapp.com",
+        "codeUrl": ""
+      },
+      {
+        "title": "> DentalCapi/",
+        "description": "Landing page para una distribuidora de insumos dentales y médicos en Quito con más de 20 años en el mercado. Incluye una guía de productos en 10 categorías, las próximas fechas de entrega gratis por ciudad, información para mayoristas y cotización por WhatsApp, y está optimizada para SEO local.",
+        "image": "/dentalcapi.jpg",
+        "tech": ["Astro", "TypeScript", "SEO"],
+        "liveUrl": "https://dentalcapi.com",
+        "codeUrl": ""
+      },
+      {
         "title": "> Salva_o_Condena/",
         "description": "Juego de gesti\u00f3n de recursos hecho para una game jam este a\u00f1o. Eres un alquimista que raciona un stock finito de pociones entre cuatro aldeanos que nunca se curan solos: cada semana obliga a elegir entre dos p\u00e9rdidas. Construido con Phaser 4 y React, con un RNG con semilla que genera accidentes emergentes, cat\u00e1strofes y condiciones permanentes.",
         "image": "/salva-o-condena.jpg",
